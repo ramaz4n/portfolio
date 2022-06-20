@@ -1,0 +1,28 @@
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	&__item{
+		font-size: 22px;
+		font-weight: bold;
+		color: rgba(242,242,242,0.6);
+		transition: all 0.2s ease-out;
+		text-transform: lowercase;
+		padding: 3px 15px;
+		border-radius: 15px;
+		&::before{
+			content: "/ ";
+		}
+		&:hover{
+			color: #fff;
+			text-shadow: 0 0 7px #fff;
+		}
+		&:focus{
+			color: #fff;
+			box-shadow: 0 0 7px #fff;
+		}
+		
+	}
+	
+}

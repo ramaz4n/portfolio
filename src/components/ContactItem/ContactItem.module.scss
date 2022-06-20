@@ -1,0 +1,22 @@
+.link{
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	border-radius: 25px;
+	width: 300px;
+	transition: all 0.1s ease-in-out;
+	font-size: 18px;
+	&:hover{
+		background-color: rgb(255, 255, 255);
+		color: rgb(0, 0, 0);
+	}
+}
+.img{
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}

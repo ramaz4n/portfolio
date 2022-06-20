@@ -1,0 +1,27 @@
+.works{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	&__header{
+		width: 100%;
+		padding: 20px 0 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__headerTitle{
+		color: rgb(209, 205, 205);
+		font-family: "Oswald", sans-serif;
+	}
+	&__content{
+		min-height: 400px;
+		padding: 40px 30px;
+		background-color: transparent;
+		display: flex;
+		justify-content: center;
+		column-gap: 100px;
+		row-gap: 50px;
+		flex-wrap: wrap;
+		color: #fff;
+	}
+}
